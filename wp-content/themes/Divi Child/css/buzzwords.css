@@ -1,0 +1,28 @@
+.buzzword {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid var(--bee-yellow);
+  color: var(--bee-black);
+  font-weight: 600;
+  font-size: 0.65rem;
+  padding: 0.25em 0.75em;
+  border-radius: 999px;
+  margin: 0.25em;
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+  user-select: none;
+}
+
+.buzzword::before {
+  content: "#";
+  margin-right: 0.15em;
+  font-weight: bold;
+}
+
+.buzzword:hover {
+  transform: scale(1.05);
+}

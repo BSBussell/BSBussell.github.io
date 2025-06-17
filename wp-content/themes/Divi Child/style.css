@@ -1,0 +1,22 @@
+/*
+Theme Name: Bee's Child Theme
+Theme URI: https://your-site.com
+Description: A custom child theme for Bee’s site
+Author: Beatrice Bussell
+Author URI: https://bbussell.com
+Template: Divi
+Version: 1.0
+*/
+
+/* Import parent theme styles */
+@import url("/wp-content/themes/Divi/style.css");
+
+/* Beeutiful Palette */
+:root {
+	--bee-black: #3b3c40;
+	--bee-white: #f6f6f6;
+	--bee-orange: #ff8e65;
+	--bee-yellow: #f8c868;
+	--bee-blurple: #6898f8;
+	--bee-blue: #65d3ff;
+}
